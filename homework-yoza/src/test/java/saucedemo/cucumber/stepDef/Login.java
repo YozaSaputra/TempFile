@@ -182,6 +182,7 @@ public class Login {
     @Then("User select cheapest Product to the cart")
     public void userSelectCheapestProductToTheCart() {
         driver.findElement(By.xpath("//*[@id=\"add-to-cart-sauce-labs-onesie\"]")).click();
+        driver.close();
     }
 }
 
